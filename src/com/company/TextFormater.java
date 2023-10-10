@@ -2,7 +2,7 @@ package com.company;
 
 public class TextFormater {
 
-    public int getAmoutOfSentenses(String str) {
+    public int getAmoutOfWords(String str) {
 
         StringBuilder builder = new StringBuilder(str);
         int amount = 1;
